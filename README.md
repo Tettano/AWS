@@ -1,2 +1,1 @@
-# AWS
-AWS Basic Static Website
+# AWS Basic Static Website
