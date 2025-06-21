@@ -69,23 +69,28 @@ With ACLs, different AWS accounts can own and control different files in your bu
 ![image](https://github.com/user-attachments/assets/0af9f89a-fc86-4dc2-a598-6caeba81fb9d)
 
 - Choose Enable.
+
+![image](https://github.com/user-attachments/assets/9f991845-d85a-4910-9d7b-71efe0fd7c95)
+
+- Also insert the HTML file that you uploaded earlier.
+
 - Choose Save changes.
 
 ---
 
 # Step#4 -Make objects in your S3 bucket public
   In this step, we gonna setup our bucket into the public so the html we uploaded will be accessible online.
-- Go back to Bucket Object tab.
+- Go back to the Bucket Object tab.
 ![image](https://github.com/user-attachments/assets/f7364a09-96dc-4a41-a1c9-ab330fe6898a)
 - Choose *Permission* .
 
-- We gonna go to edit the bucket policy
-  I made the json code for our bucket policy kindly check the uploaded json file here.
+- We're gonna go edit the bucket policy
 
 An AWS Bucket policy is a JSON document that defines the permissions and access controls for an Amazon S3 bucket. It determines who can access the bucket, what actions they can perform (e.g., read, write, delete), and under what conditions.
 
 ![image](https://github.com/user-attachments/assets/407d5886-2e55-4aab-94f9-e2bbd9ca3adb)
 - Copy the policy code and paste it into your bucket policy.
+ * I made the JSON code for our bucket policy Kindly check the uploaded JSON file here.
 ![image](https://github.com/user-attachments/assets/928b84a6-4708-42e9-8971-535fd7402592)
 - Replace the name of bucket resouce with your own resource.
 
